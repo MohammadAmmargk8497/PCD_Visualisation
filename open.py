@@ -59,12 +59,12 @@ def create_combined_ply_point_cloud(root_folder, output_ply_file, n):
     
 
 if __name__ == "__main__":
-    # Check if three arguments are provided
+   
     if len(sys.argv) != 4:
         print("Usage: python your_script.py path_arg1 path_arg2 path_arg3")
         sys.exit(1)
 
-    # Extract the arguments
+    
     root_folder_path = sys.argv[1]
     output_ply_file_path= sys.argv[2]
     n = int(sys.argv[3])
